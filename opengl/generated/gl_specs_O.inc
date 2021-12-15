@@ -7,10 +7,10 @@ Version 4.3.
 Version 4.3.
 }
 @defproc[(glObjectPurgeableAPPLE (objectType exact-integer?) (name exact-nonnegative-integer?) (option exact-integer?)) exact-integer?]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/APPLE/object_purgeable.txt"]{@racket[GL_APPLE_object_purgeable]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/APPLE/object_purgeable.txt"]{@racket[GL_APPLE_object_purgeable]}.
 }
 @defproc[(glObjectUnpurgeableAPPLE (objectType exact-integer?) (name exact-nonnegative-integer?) (option exact-integer?)) exact-integer?]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/APPLE/object_purgeable.txt"]{@racket[GL_APPLE_object_purgeable]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/APPLE/object_purgeable.txt"]{@racket[GL_APPLE_object_purgeable]}.
 }
 @defproc[(glOrtho (left real?) (right real?) (bottom real?) (top real?) (zNear real?) (zFar real?)) any]{
 Deprecated in version 3.1.

@@ -125,14 +125,14 @@ See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glRasterPos.xhtml
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glReadBuffer.xhtml"]{glReadBuffer manpage}.
 }
 @defproc[(glReadInstrumentsSGIX (marker exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SGIX/instruments.txt"]{@racket[GL_SGIX_instruments]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SGIX/instruments.txt"]{@racket[GL_SGIX_instruments]}.
 }
 @defproc[(glReadPixels (x exact-integer?) (y exact-integer?) (width exact-integer?) (height exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
 
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glReadPixels.xhtml"]{glReadPixels manpage}.
 }
 @defproc[(glReadnPixelsARB (x exact-integer?) (y exact-integer?) (width exact-integer?) (height exact-integer?) (format exact-integer?) (type exact-integer?) (bufSize exact-integer?) (data gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/robustness.txt"]{@racket[GL_ARB_robustness]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/robustness.txt"]{@racket[GL_ARB_robustness]}.
 }
 @defproc[(glRectd (x1 real?) (y1 real?) (x2 real?) (y2 real?)) any]{
 Deprecated in version 3.1.
@@ -175,7 +175,7 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glRect.xhtml"]{glRect manpage}.
 }
 @defproc[(glReferencePlaneSGIX (equation f64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SGIX/reference_plane.txt"]{@racket[GL_SGIX_reference_plane]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SGIX/reference_plane.txt"]{@racket[GL_SGIX_reference_plane]}.
 }
 @defproc[(glReleaseShaderCompiler) any]{
 Version 4.1.
@@ -193,7 +193,7 @@ Version 3.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glRenderbufferStorage.xhtml"]{glRenderbufferStorage manpage}.
 }
 @defproc[(glRenderbufferStorageEXT (target exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/framebuffer_object.txt"]{@racket[GL_EXT_framebuffer_object]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/framebuffer_object.txt"]{@racket[GL_EXT_framebuffer_object]}.
 
 Alias of @racket[glRenderbufferStorage].
 }
@@ -203,84 +203,84 @@ Version 3.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glRenderbufferStorageMultisample.xhtml"]{glRenderbufferStorageMultisample manpage}.
 }
 @defproc[(glRenderbufferStorageMultisampleCoverageNV (target exact-integer?) (coverageSamples exact-integer?) (colorSamples exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/framebuffer_multisample_coverage.txt"]{@racket[GL_NV_framebuffer_multisample_coverage]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/framebuffer_multisample_coverage.txt"]{@racket[GL_NV_framebuffer_multisample_coverage]}.
 }
 @defproc[(glRenderbufferStorageMultisampleEXT (target exact-integer?) (samples exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/framebuffer_multisample.txt"]{@racket[GL_EXT_framebuffer_multisample]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/framebuffer_multisample.txt"]{@racket[GL_EXT_framebuffer_multisample]}.
 
 Alias of @racket[glRenderbufferStorageMultisample].
 }
 @defproc[(glReplacementCodePointerSUN (type exact-integer?) (stride exact-integer?) (pointer (vectorof gl-pointer?))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
 }
 @defproc[(glReplacementCodeubSUN (code (integer-in 0 255))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
 }
 @defproc[(glReplacementCodeubvSUN (code (integer-in 0 255))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
 }
 @defproc[(glReplacementCodeuiColor3fVertex3fSUN (rc exact-nonnegative-integer?) (r flonum?) (g flonum?) (b flonum?) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiColor3fVertex3fvSUN (rc exact-nonnegative-integer?) (c f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiColor4fNormal3fVertex3fSUN (rc exact-nonnegative-integer?) (r flonum?) (g flonum?) (b flonum?) (a flonum?) (nx flonum?) (ny flonum?) (nz flonum?) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiColor4fNormal3fVertex3fvSUN (rc exact-nonnegative-integer?) (c f32vector?) (n f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiColor4ubVertex3fSUN (rc exact-nonnegative-integer?) (r (integer-in 0 255)) (g (integer-in 0 255)) (b (integer-in 0 255)) (a (integer-in 0 255)) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiColor4ubVertex3fvSUN (rc exact-nonnegative-integer?) (c (or/c string? bytes?)) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiNormal3fVertex3fSUN (rc exact-nonnegative-integer?) (nx flonum?) (ny flonum?) (nz flonum?) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiNormal3fVertex3fvSUN (rc exact-nonnegative-integer?) (n f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiSUN (code exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
 }
 @defproc[(glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN (rc exact-nonnegative-integer?) (s flonum?) (t flonum?) (r flonum?) (g flonum?) (b flonum?) (a flonum?) (nx flonum?) (ny flonum?) (nz flonum?) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN (rc exact-nonnegative-integer?) (tc f32vector?) (c f32vector?) (n f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN (rc exact-nonnegative-integer?) (s flonum?) (t flonum?) (nx flonum?) (ny flonum?) (nz flonum?) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN (rc exact-nonnegative-integer?) (tc f32vector?) (n f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiTexCoord2fVertex3fSUN (rc exact-nonnegative-integer?) (s flonum?) (t flonum?) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiTexCoord2fVertex3fvSUN (rc exact-nonnegative-integer?) (tc f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiVertex3fSUN (rc exact-nonnegative-integer?) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuiVertex3fvSUN (rc exact-nonnegative-integer?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glReplacementCodeuivSUN (code exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
 }
 @defproc[(glReplacementCodeusSUN (code (integer-in 0 65535))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
 }
 @defproc[(glReplacementCodeusvSUN (code (integer-in 0 65535))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/triangle_list.txt"]{@racket[GL_SUN_triangle_list]}.
 }
 @defproc[(glRequestResidentProgramsNV (n exact-integer?) (programs u32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/vertex_program.txt"]{@racket[GL_NV_vertex_program]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/vertex_program.txt"]{@racket[GL_NV_vertex_program]}.
 }
 @defproc[(glResetHistogram (target exact-integer?)) any]{
 Version 1.2.
@@ -289,7 +289,7 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glResetHistogram.xhtml"]{glResetHistogram manpage}.
 }
 @defproc[(glResetHistogramEXT (target exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/histogram.txt"]{@racket[GL_EXT_histogram]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/histogram.txt"]{@racket[GL_EXT_histogram]}.
 
 Alias of @racket[glResetHistogram].
 }
@@ -300,12 +300,12 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glResetMinmax.xhtml"]{glResetMinmax manpage}.
 }
 @defproc[(glResetMinmaxEXT (target exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/histogram.txt"]{@racket[GL_EXT_histogram]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/histogram.txt"]{@racket[GL_EXT_histogram]}.
 
 Alias of @racket[glResetMinmax].
 }
 @defproc[(glResizeBuffersMESA) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/resize_buffers.txt"]{@racket[GL_MESA_resize_buffers]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/MESA/resize_buffers.txt"]{@racket[GL_MESA_resize_buffers]}.
 }
 @defproc[(glResumeTransformFeedback) any]{
 Version 1.2.
@@ -313,7 +313,7 @@ Version 1.2.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glResumeTransformFeedback.xhtml"]{glResumeTransformFeedback manpage}.
 }
 @defproc[(glResumeTransformFeedbackNV) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/transform_feedback2.txt"]{@racket[GL_NV_transform_feedback2]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/transform_feedback2.txt"]{@racket[GL_NV_transform_feedback2]}.
 }
 @defproc[(glRotated (angle real?) (x real?) (y real?) (z real?)) any]{
 Deprecated in version 3.1.

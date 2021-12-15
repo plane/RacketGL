@@ -16,7 +16,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform1fARB (location exact-integer?) (v0 flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform1f].
 }
@@ -26,7 +26,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform1fvARB (location exact-integer?) (count exact-integer?) (value f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform1fv].
 }
@@ -36,13 +36,13 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform1i64NV (location exact-integer?) (x exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform1i64vNV (location exact-integer?) (count exact-integer?) (value s64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform1iARB (location exact-integer?) (v0 exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform1i].
 }
@@ -52,7 +52,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform1ivARB (location exact-integer?) (count exact-integer?) (value s32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform1iv].
 }
@@ -62,13 +62,13 @@ Version 3.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform1ui64NV (location exact-integer?) (x exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform1ui64vNV (location exact-integer?) (count exact-integer?) (value u64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform1uiEXT (location exact-integer?) (v0 exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
 
 Alias of @racket[glUniform1ui].
 }
@@ -78,7 +78,7 @@ Version 3.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform1uivEXT (location exact-integer?) (count exact-integer?) (value u32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
 
 Alias of @racket[glUniform1uiv].
 }
@@ -98,7 +98,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform2fARB (location exact-integer?) (v0 flonum?) (v1 flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform2f].
 }
@@ -108,7 +108,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform2fvARB (location exact-integer?) (count exact-integer?) (value f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform2fv].
 }
@@ -118,13 +118,13 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform2i64NV (location exact-integer?) (x exact-integer?) (y exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform2i64vNV (location exact-integer?) (count exact-integer?) (value s64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform2iARB (location exact-integer?) (v0 exact-integer?) (v1 exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform2i].
 }
@@ -134,7 +134,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform2ivARB (location exact-integer?) (count exact-integer?) (value s32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform2iv].
 }
@@ -144,13 +144,13 @@ Version 3.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform2ui64NV (location exact-integer?) (x exact-nonnegative-integer?) (y exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform2ui64vNV (location exact-integer?) (count exact-integer?) (value u64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform2uiEXT (location exact-integer?) (v0 exact-nonnegative-integer?) (v1 exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
 
 Alias of @racket[glUniform2ui].
 }
@@ -160,7 +160,7 @@ Version 3.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform2uivEXT (location exact-integer?) (count exact-integer?) (value u32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
 
 Alias of @racket[glUniform2uiv].
 }
@@ -180,7 +180,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform3fARB (location exact-integer?) (v0 flonum?) (v1 flonum?) (v2 flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform3f].
 }
@@ -190,7 +190,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform3fvARB (location exact-integer?) (count exact-integer?) (value f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform3fv].
 }
@@ -200,13 +200,13 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform3i64NV (location exact-integer?) (x exact-integer?) (y exact-integer?) (z exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform3i64vNV (location exact-integer?) (count exact-integer?) (value s64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform3iARB (location exact-integer?) (v0 exact-integer?) (v1 exact-integer?) (v2 exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform3i].
 }
@@ -216,7 +216,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform3ivARB (location exact-integer?) (count exact-integer?) (value s32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform3iv].
 }
@@ -226,13 +226,13 @@ Version 3.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform3ui64NV (location exact-integer?) (x exact-nonnegative-integer?) (y exact-nonnegative-integer?) (z exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform3ui64vNV (location exact-integer?) (count exact-integer?) (value u64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform3uiEXT (location exact-integer?) (v0 exact-nonnegative-integer?) (v1 exact-nonnegative-integer?) (v2 exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
 
 Alias of @racket[glUniform3ui].
 }
@@ -242,7 +242,7 @@ Version 3.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform3uivEXT (location exact-integer?) (count exact-integer?) (value u32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
 
 Alias of @racket[glUniform3uiv].
 }
@@ -262,7 +262,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform4fARB (location exact-integer?) (v0 flonum?) (v1 flonum?) (v2 flonum?) (v3 flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform4f].
 }
@@ -272,7 +272,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform4fvARB (location exact-integer?) (count exact-integer?) (value f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform4fv].
 }
@@ -282,13 +282,13 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform4i64NV (location exact-integer?) (x exact-integer?) (y exact-integer?) (z exact-integer?) (w exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform4i64vNV (location exact-integer?) (count exact-integer?) (value s64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform4iARB (location exact-integer?) (v0 exact-integer?) (v1 exact-integer?) (v2 exact-integer?) (v3 exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform4i].
 }
@@ -298,7 +298,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform4ivARB (location exact-integer?) (count exact-integer?) (value s32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniform4iv].
 }
@@ -308,13 +308,13 @@ Version 3.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform4ui64NV (location exact-integer?) (x exact-nonnegative-integer?) (y exact-nonnegative-integer?) (z exact-nonnegative-integer?) (w exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform4ui64vNV (location exact-integer?) (count exact-integer?) (value u64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/gpu_shader5.txt"]{@racket[GL_NV_gpu_shader5]}.
 }
 @defproc[(glUniform4uiEXT (location exact-integer?) (v0 exact-nonnegative-integer?) (v1 exact-nonnegative-integer?) (v2 exact-nonnegative-integer?) (v3 exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
 
 Alias of @racket[glUniform4ui].
 }
@@ -324,7 +324,7 @@ Version 3.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniform.xhtml"]{glUniform manpage}.
 }
 @defproc[(glUniform4uivEXT (location exact-integer?) (count exact-integer?) (value u32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/gpu_shader4.txt"]{@racket[GL_EXT_gpu_shader4]}.
 
 Alias of @racket[glUniform4uiv].
 }
@@ -334,13 +334,13 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniformBlockBinding.xhtml"]{glUniformBlockBinding manpage}.
 }
 @defproc[(glUniformBufferEXT (program exact-nonnegative-integer?) (location exact-integer?) (buffer exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/bindable_uniform.txt"]{@racket[GL_EXT_bindable_uniform]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/bindable_uniform.txt"]{@racket[GL_EXT_bindable_uniform]}.
 }
 @defproc[(glUniformHandleui64NV (location exact-integer?) (value exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/bindless_texture.txt"]{@racket[GL_NV_bindless_texture]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/bindless_texture.txt"]{@racket[GL_NV_bindless_texture]}.
 }
 @defproc[(glUniformHandleui64vNV (location exact-integer?) (count exact-integer?) (value u64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/bindless_texture.txt"]{@racket[GL_NV_bindless_texture]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/bindless_texture.txt"]{@racket[GL_NV_bindless_texture]}.
 }
 @defproc[(glUniformMatrix2dv (location exact-integer?) (count exact-integer?) (transpose boolean?) (value f64vector?)) any]{
 Version 1.2.
@@ -349,7 +349,7 @@ Version 1.2.
 Version 2.0.
 }
 @defproc[(glUniformMatrix2fvARB (location exact-integer?) (count exact-integer?) (transpose boolean?) (value f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniformMatrix2fv].
 }
@@ -372,7 +372,7 @@ Version 1.2.
 Version 2.0.
 }
 @defproc[(glUniformMatrix3fvARB (location exact-integer?) (count exact-integer?) (transpose boolean?) (value f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniformMatrix3fv].
 }
@@ -395,7 +395,7 @@ Version 1.2.
 Version 2.0.
 }
 @defproc[(glUniformMatrix4fvARB (location exact-integer?) (count exact-integer?) (transpose boolean?) (value f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUniformMatrix4fv].
 }
@@ -417,13 +417,13 @@ Version 1.2.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUniformSubroutines.xhtml"]{glUniformSubroutines manpage}.
 }
 @defproc[(glUniformui64NV (location exact-integer?) (value exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/shader_buffer_load.txt"]{@racket[GL_NV_shader_buffer_load]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/shader_buffer_load.txt"]{@racket[GL_NV_shader_buffer_load]}.
 }
 @defproc[(glUniformui64vNV (location exact-integer?) (count exact-integer?) (value u64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/shader_buffer_load.txt"]{@racket[GL_NV_shader_buffer_load]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/shader_buffer_load.txt"]{@racket[GL_NV_shader_buffer_load]}.
 }
 @defproc[(glUnlockArraysEXT) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/compiled_vertex_array.txt"]{@racket[GL_EXT_compiled_vertex_array]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/compiled_vertex_array.txt"]{@racket[GL_EXT_compiled_vertex_array]}.
 }
 @defproc[(glUnmapBuffer (target exact-integer?)) boolean?]{
 Version 1.5.
@@ -431,18 +431,18 @@ Version 1.5.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUnmapBuffer.xhtml"]{glUnmapBuffer manpage}.
 }
 @defproc[(glUnmapBufferARB (target exact-integer?)) boolean?]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/vertex_buffer_object.txt"]{@racket[GL_ARB_vertex_buffer_object]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/vertex_buffer_object.txt"]{@racket[GL_ARB_vertex_buffer_object]}.
 
 Alias of @racket[glUnmapBuffer].
 }
 @defproc[(glUnmapNamedBufferEXT (buffer exact-nonnegative-integer?)) boolean?]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glUnmapObjectBufferATI (buffer exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ATI/map_object_buffer.txt"]{@racket[GL_ATI_map_object_buffer]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ATI/map_object_buffer.txt"]{@racket[GL_ATI_map_object_buffer]}.
 }
 @defproc[(glUpdateObjectBufferATI (buffer exact-nonnegative-integer?) (offset exact-nonnegative-integer?) (size exact-integer?) (pointer gl-pointer?) (preserve exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ATI/vertex_array_object.txt"]{@racket[GL_ATI_vertex_array_object]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ATI/vertex_array_object.txt"]{@racket[GL_ATI_vertex_array_object]}.
 }
 @defproc[(glUseProgram (program exact-nonnegative-integer?)) any]{
 Version 2.0.
@@ -450,7 +450,7 @@ Version 2.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUseProgram.xhtml"]{glUseProgram manpage}.
 }
 @defproc[(glUseProgramObjectARB (programObj exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/shader_objects.txt"]{@racket[GL_ARB_shader_objects]}.
 
 Alias of @racket[glUseProgram].
 }
@@ -460,5 +460,5 @@ Version 4.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glUseProgramStages.xhtml"]{glUseProgramStages manpage}.
 }
 @defproc[(glUseShaderProgramEXT (type exact-integer?) (program exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/separate_shader_objects.txt"]{@racket[GL_EXT_separate_shader_objects]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/separate_shader_objects.txt"]{@racket[GL_EXT_separate_shader_objects]}.
 }

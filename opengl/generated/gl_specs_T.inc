@@ -1,58 +1,58 @@
 #lang scribble/manual
 @title{glT...}
 @defproc[(glTagSampleBufferSGIX) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SGIX/tag_sample_buffer.txt"]{@racket[GL_SGIX_tag_sample_buffer]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SGIX/tag_sample_buffer.txt"]{@racket[GL_SGIX_tag_sample_buffer]}.
 }
 @defproc[(glTangent3bEXT (tx (integer-in -128 127)) (ty (integer-in -128 127)) (tz (integer-in -128 127))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
 }
 @defproc[(glTangent3bvEXT (v s8vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
 }
 @defproc[(glTangent3dEXT (tx real?) (ty real?) (tz real?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
 }
 @defproc[(glTangent3dvEXT (v f64vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
 }
 @defproc[(glTangent3fEXT (tx flonum?) (ty flonum?) (tz flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
 }
 @defproc[(glTangent3fvEXT (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
 }
 @defproc[(glTangent3iEXT (tx exact-integer?) (ty exact-integer?) (tz exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
 }
 @defproc[(glTangent3ivEXT (v s32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
 }
 @defproc[(glTangent3sEXT (tx (integer-in -32768 32767)) (ty (integer-in -32768 32767)) (tz (integer-in -32768 32767))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
 }
 @defproc[(glTangent3svEXT (v s16vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
 }
 @defproc[(glTangentPointerEXT (type exact-integer?) (stride exact-integer?) (pointer gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/coordinate_frame.txt"]{@racket[GL_EXT_coordinate_frame]}.
 }
 @defproc[(glTbufferMask3DFX (mask exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/3DFX/tbuffer.txt"]{@racket[GL_3DFX_tbuffer]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/3DFX/tbuffer.txt"]{@racket[GL_3DFX_tbuffer]}.
 }
 @defproc[(glTessellationFactorAMD (factor flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/AMD/vertex_shader_tesselator.txt"]{@racket[GL_AMD_vertex_shader_tesselator]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/AMD/vertex_shader_tesselator.txt"]{@racket[GL_AMD_vertex_shader_tesselator]}.
 }
 @defproc[(glTessellationModeAMD (mode exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/AMD/vertex_shader_tesselator.txt"]{@racket[GL_AMD_vertex_shader_tesselator]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/AMD/vertex_shader_tesselator.txt"]{@racket[GL_AMD_vertex_shader_tesselator]}.
 }
 @defproc[(glTestFenceAPPLE (fence exact-nonnegative-integer?)) boolean?]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/APPLE/fence.txt"]{@racket[GL_APPLE_fence]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/APPLE/fence.txt"]{@racket[GL_APPLE_fence]}.
 }
 @defproc[(glTestFenceNV (fence exact-nonnegative-integer?)) boolean?]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/fence.txt"]{@racket[GL_NV_fence]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/fence.txt"]{@racket[GL_NV_fence]}.
 }
 @defproc[(glTestObjectAPPLE (object exact-integer?) (name exact-nonnegative-integer?)) boolean?]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/APPLE/fence.txt"]{@racket[GL_APPLE_fence]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/APPLE/fence.txt"]{@racket[GL_APPLE_fence]}.
 }
 @defproc[(glTexBuffer (target exact-integer?) (internalformat exact-integer?) (buffer exact-nonnegative-integer?)) any]{
 Version 3.1.
@@ -60,12 +60,12 @@ Version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glTexBuffer.xhtml"]{glTexBuffer manpage}.
 }
 @defproc[(glTexBufferARB (target exact-integer?) (internalformat exact-integer?) (buffer exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/texture_buffer_object.txt"]{@racket[GL_ARB_texture_buffer_object]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/texture_buffer_object.txt"]{@racket[GL_ARB_texture_buffer_object]}.
 
 Alias of @racket[glTexBuffer].
 }
 @defproc[(glTexBufferEXT (target exact-integer?) (internalformat exact-integer?) (buffer exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/texture_buffer_object.txt"]{@racket[GL_EXT_texture_buffer_object]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/texture_buffer_object.txt"]{@racket[GL_EXT_texture_buffer_object]}.
 
 Alias of @racket[glTexBufferARB].
 }
@@ -73,10 +73,10 @@ Alias of @racket[glTexBufferARB].
 Version 4.3.
 }
 @defproc[(glTexBumpParameterfvATI (pname exact-integer?) (param f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ATI/envmap_bumpmap.txt"]{@racket[GL_ATI_envmap_bumpmap]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ATI/envmap_bumpmap.txt"]{@racket[GL_ATI_envmap_bumpmap]}.
 }
 @defproc[(glTexBumpParameterivATI (pname exact-integer?) (param s32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ATI/envmap_bumpmap.txt"]{@racket[GL_ATI_envmap_bumpmap]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ATI/envmap_bumpmap.txt"]{@racket[GL_ATI_envmap_bumpmap]}.
 }
 @defproc[(glTexCoord1d (s real?)) any]{
 Deprecated in version 3.1.
@@ -99,10 +99,10 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glTexCoord.xhtml"]{glTexCoord manpage}.
 }
 @defproc[(glTexCoord1hNV (s (integer-in 0 65535))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
 }
 @defproc[(glTexCoord1hvNV (v (integer-in 0 65535))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
 }
 @defproc[(glTexCoord1i (s exact-integer?)) any]{
 Deprecated in version 3.1.
@@ -140,34 +140,34 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glTexCoord.xhtml"]{glTexCoord manpage}.
 }
 @defproc[(glTexCoord2fColor3fVertex3fSUN (s flonum?) (t flonum?) (r flonum?) (g flonum?) (b flonum?) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord2fColor3fVertex3fvSUN (tc f32vector?) (c f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord2fColor4fNormal3fVertex3fSUN (s flonum?) (t flonum?) (r flonum?) (g flonum?) (b flonum?) (a flonum?) (nx flonum?) (ny flonum?) (nz flonum?) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord2fColor4fNormal3fVertex3fvSUN (tc f32vector?) (c f32vector?) (n f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord2fColor4ubVertex3fSUN (s flonum?) (t flonum?) (r (integer-in 0 255)) (g (integer-in 0 255)) (b (integer-in 0 255)) (a (integer-in 0 255)) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord2fColor4ubVertex3fvSUN (tc f32vector?) (c (or/c string? bytes?)) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord2fNormal3fVertex3fSUN (s flonum?) (t flonum?) (nx flonum?) (ny flonum?) (nz flonum?) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord2fNormal3fVertex3fvSUN (tc f32vector?) (n f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord2fVertex3fSUN (s flonum?) (t flonum?) (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord2fVertex3fvSUN (tc f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord2fv (v f32vector?)) any]{
 Deprecated in version 3.1.
@@ -175,10 +175,10 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glTexCoord.xhtml"]{glTexCoord manpage}.
 }
 @defproc[(glTexCoord2hNV (s (integer-in 0 65535)) (t (integer-in 0 65535))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
 }
 @defproc[(glTexCoord2hvNV (v u16vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
 }
 @defproc[(glTexCoord2i (s exact-integer?) (t exact-integer?)) any]{
 Deprecated in version 3.1.
@@ -221,10 +221,10 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glTexCoord.xhtml"]{glTexCoord manpage}.
 }
 @defproc[(glTexCoord3hNV (s (integer-in 0 65535)) (t (integer-in 0 65535)) (r (integer-in 0 65535))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
 }
 @defproc[(glTexCoord3hvNV (v u16vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
 }
 @defproc[(glTexCoord3i (s exact-integer?) (t exact-integer?) (r exact-integer?)) any]{
 Deprecated in version 3.1.
@@ -262,16 +262,16 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glTexCoord.xhtml"]{glTexCoord manpage}.
 }
 @defproc[(glTexCoord4fColor4fNormal3fVertex4fSUN (s flonum?) (t flonum?) (p flonum?) (q flonum?) (r flonum?) (g flonum?) (b flonum?) (a flonum?) (nx flonum?) (ny flonum?) (nz flonum?) (x flonum?) (y flonum?) (z flonum?) (w flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord4fColor4fNormal3fVertex4fvSUN (tc f32vector?) (c f32vector?) (n f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord4fVertex4fSUN (s flonum?) (t flonum?) (p flonum?) (q flonum?) (x flonum?) (y flonum?) (z flonum?) (w flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord4fVertex4fvSUN (tc f32vector?) (v f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SUN/vertex.txt"]{@racket[GL_SUN_vertex]}.
 }
 @defproc[(glTexCoord4fv (v f32vector?)) any]{
 Deprecated in version 3.1.
@@ -279,10 +279,10 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glTexCoord.xhtml"]{glTexCoord manpage}.
 }
 @defproc[(glTexCoord4hNV (s (integer-in 0 65535)) (t (integer-in 0 65535)) (r (integer-in 0 65535)) (q (integer-in 0 65535))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
 }
 @defproc[(glTexCoord4hvNV (v u16vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/half_float.txt"]{@racket[GL_NV_half_float]}.
 }
 @defproc[(glTexCoord4i (s exact-integer?) (t exact-integer?) (r exact-integer?) (q exact-integer?)) any]{
 Deprecated in version 3.1.
@@ -305,7 +305,7 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glTexCoord.xhtml"]{glTexCoord manpage}.
 }
 @defproc[(glTexCoordFormatNV (size exact-integer?) (type exact-integer?) (stride exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/vertex_buffer_unified_memory.txt"]{@racket[GL_NV_vertex_buffer_unified_memory]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/vertex_buffer_unified_memory.txt"]{@racket[GL_NV_vertex_buffer_unified_memory]}.
 }
 @defproc[(glTexCoordP1ui (type exact-integer?) (coords exact-nonnegative-integer?)) any]{
 Version 1.2.
@@ -338,13 +338,13 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glTexCoordPointer.xhtml"]{glTexCoordPointer manpage}.
 }
 @defproc[(glTexCoordPointerEXT (size exact-integer?) (type exact-integer?) (stride exact-integer?) (count exact-integer?) (pointer gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/vertex_array.txt"]{@racket[GL_EXT_vertex_array]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/vertex_array.txt"]{@racket[GL_EXT_vertex_array]}.
 }
 @defproc[(glTexCoordPointerListIBM (size exact-integer?) (type exact-integer?) (stride exact-integer?) (pointer (vectorof gl-pointer?)) (ptrstride exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/IBM/vertex_array_lists.txt"]{@racket[GL_IBM_vertex_array_lists]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/IBM/vertex_array_lists.txt"]{@racket[GL_IBM_vertex_array_lists]}.
 }
 @defproc[(glTexCoordPointervINTEL (size exact-integer?) (type exact-integer?) (pointer (vectorof gl-pointer?))) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/INTEL/parallel_arrays.txt"]{@racket[GL_INTEL_parallel_arrays]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/INTEL/parallel_arrays.txt"]{@racket[GL_INTEL_parallel_arrays]}.
 }
 @defproc[(glTexEnvf (target exact-integer?) (pname exact-integer?) (param flonum?)) any]{
 Deprecated in version 3.1.
@@ -367,7 +367,7 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glTexEnv.xhtml"]{glTexEnv manpage}.
 }
 @defproc[(glTexFilterFuncSGIS (target exact-integer?) (filter exact-integer?) (n exact-integer?) (weights f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SGIS/texture_filter4.txt"]{@racket[GL_SGIS_texture_filter4]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SGIS/texture_filter4.txt"]{@racket[GL_SGIS_texture_filter4]}.
 }
 @defproc[(glTexGend (coord exact-integer?) (pname exact-integer?) (param real?)) any]{
 Deprecated in version 3.1.
@@ -413,7 +413,7 @@ Version 1.2.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glTexImage2DMultisample.xhtml"]{glTexImage2DMultisample manpage}.
 }
 @defproc[(glTexImage2DMultisampleCoverageNV (target exact-integer?) (coverageSamples exact-integer?) (colorSamples exact-integer?) (internalFormat exact-integer?) (width exact-integer?) (height exact-integer?) (fixedSampleLocations boolean?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
 }
 @defproc[(glTexImage3D (target exact-integer?) (level exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (border exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
 Version 1.2.
@@ -422,7 +422,7 @@ Deprecated in version 3.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glTexImage3D.xhtml"]{glTexImage3D manpage}.
 }
 @defproc[(glTexImage3DEXT (target exact-integer?) (level exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (border exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/texture3D.txt"]{@racket[GL_EXT_texture3D]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/texture3D.txt"]{@racket[GL_EXT_texture3D]}.
 
 Alias of @racket[glTexImage3D].
 }
@@ -432,16 +432,16 @@ Version 1.2.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glTexImage3DMultisample.xhtml"]{glTexImage3DMultisample manpage}.
 }
 @defproc[(glTexImage3DMultisampleCoverageNV (target exact-integer?) (coverageSamples exact-integer?) (colorSamples exact-integer?) (internalFormat exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (fixedSampleLocations boolean?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
 }
 @defproc[(glTexImage4DSGIS (target exact-integer?) (level exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (size4d exact-integer?) (border exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SGIS/texture4D.txt"]{@racket[GL_SGIS_texture4D]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SGIS/texture4D.txt"]{@racket[GL_SGIS_texture4D]}.
 }
 @defproc[(glTexParameterIiv (target exact-integer?) (pname exact-integer?) (params s32vector?)) any]{
 Version 3.0.
 }
 @defproc[(glTexParameterIivEXT (target exact-integer?) (pname exact-integer?) (params s32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/texture_integer.txt"]{@racket[GL_EXT_texture_integer]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/texture_integer.txt"]{@racket[GL_EXT_texture_integer]}.
 
 Alias of @racket[glTexParameterIiv].
 }
@@ -449,7 +449,7 @@ Alias of @racket[glTexParameterIiv].
 Version 3.0.
 }
 @defproc[(glTexParameterIuivEXT (target exact-integer?) (pname exact-integer?) (params u32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/texture_integer.txt"]{@racket[GL_EXT_texture_integer]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/texture_integer.txt"]{@racket[GL_EXT_texture_integer]}.
 
 Alias of @racket[glTexParameterIuiv].
 }
@@ -470,7 +470,7 @@ See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glTexParameter.xh
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glTexParameter.xhtml"]{glTexParameter manpage}.
 }
 @defproc[(glTexRenderbufferNV (target exact-integer?) (renderbuffer exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/explicit_multisample.txt"]{@racket[GL_NV_explicit_multisample]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/explicit_multisample.txt"]{@racket[GL_NV_explicit_multisample]}.
 }
 @defproc[(glTexStorage1D (target exact-integer?) (levels exact-integer?) (internalformat exact-integer?) (width exact-integer?)) any]{
 Version 4.2.
@@ -494,7 +494,7 @@ See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glTexStorage3D.xh
 Version 4.3.
 }
 @defproc[(glTexStorageSparseAMD (target exact-integer?) (internalFormat exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (layers exact-integer?) (flags exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/AMD/sparse_texture.txt"]{@racket[GL_AMD_sparse_texture]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/AMD/sparse_texture.txt"]{@racket[GL_AMD_sparse_texture]}.
 }
 @defproc[(glTexSubImage1D (target exact-integer?) (level exact-integer?) (xoffset exact-integer?) (width exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
 Version 1.1.
@@ -502,7 +502,7 @@ Version 1.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glTexSubImage1D.xhtml"]{glTexSubImage1D manpage}.
 }
 @defproc[(glTexSubImage1DEXT (target exact-integer?) (level exact-integer?) (xoffset exact-integer?) (width exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/subtexture.txt"]{@racket[GL_EXT_subtexture]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/subtexture.txt"]{@racket[GL_EXT_subtexture]}.
 
 Alias of @racket[glTexSubImage1D].
 }
@@ -512,7 +512,7 @@ Version 1.1.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glTexSubImage2D.xhtml"]{glTexSubImage2D manpage}.
 }
 @defproc[(glTexSubImage2DEXT (target exact-integer?) (level exact-integer?) (xoffset exact-integer?) (yoffset exact-integer?) (width exact-integer?) (height exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/subtexture.txt"]{@racket[GL_EXT_subtexture]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/subtexture.txt"]{@racket[GL_EXT_subtexture]}.
 
 Alias of @racket[glTexSubImage2D].
 }
@@ -522,117 +522,117 @@ Version 1.2.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glTexSubImage3D.xhtml"]{glTexSubImage3D manpage}.
 }
 @defproc[(glTexSubImage3DEXT (target exact-integer?) (level exact-integer?) (xoffset exact-integer?) (yoffset exact-integer?) (zoffset exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/texture3D.txt"]{@racket[GL_EXT_texture3D]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/texture3D.txt"]{@racket[GL_EXT_texture3D]}.
 
 Alias of @racket[glTexSubImage3D].
 }
 @defproc[(glTexSubImage4DSGIS (target exact-integer?) (level exact-integer?) (xoffset exact-integer?) (yoffset exact-integer?) (zoffset exact-integer?) (woffset exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (size4d exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SGIS/texture4D.txt"]{@racket[GL_SGIS_texture4D]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SGIS/texture4D.txt"]{@racket[GL_SGIS_texture4D]}.
 }
 @defproc[(glTextureBarrierNV) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/texture_barrier.txt"]{@racket[GL_NV_texture_barrier]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/texture_barrier.txt"]{@racket[GL_NV_texture_barrier]}.
 }
 @defproc[(glTextureBufferEXT (texture exact-nonnegative-integer?) (target exact-integer?) (internalformat exact-integer?) (buffer exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureBufferRangeEXT (texture exact-nonnegative-integer?) (target exact-integer?) (internalformat exact-integer?) (buffer exact-nonnegative-integer?) (offset exact-integer?) (size exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/texture_buffer_range.txt"]{@racket[GL_ARB_texture_buffer_range]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/texture_buffer_range.txt"]{@racket[GL_ARB_texture_buffer_range]}.
 }
 @defproc[(glTextureColorMaskSGIS (red boolean?) (green boolean?) (blue boolean?) (alpha boolean?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/SGIS/texture_color_mask.txt"]{@racket[GL_SGIS_texture_color_mask]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/SGIS/texture_color_mask.txt"]{@racket[GL_SGIS_texture_color_mask]}.
 }
 @defproc[(glTextureImage1DEXT (texture exact-nonnegative-integer?) (target exact-integer?) (level exact-integer?) (internalformat exact-integer?) (width exact-integer?) (border exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureImage2DEXT (texture exact-nonnegative-integer?) (target exact-integer?) (level exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?) (border exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureImage2DMultisampleCoverageNV (texture exact-nonnegative-integer?) (target exact-integer?) (coverageSamples exact-integer?) (colorSamples exact-integer?) (internalFormat exact-integer?) (width exact-integer?) (height exact-integer?) (fixedSampleLocations boolean?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
 }
 @defproc[(glTextureImage2DMultisampleNV (texture exact-nonnegative-integer?) (target exact-integer?) (samples exact-integer?) (internalFormat exact-integer?) (width exact-integer?) (height exact-integer?) (fixedSampleLocations boolean?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
 }
 @defproc[(glTextureImage3DEXT (texture exact-nonnegative-integer?) (target exact-integer?) (level exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (border exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureImage3DMultisampleCoverageNV (texture exact-nonnegative-integer?) (target exact-integer?) (coverageSamples exact-integer?) (colorSamples exact-integer?) (internalFormat exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (fixedSampleLocations boolean?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
 }
 @defproc[(glTextureImage3DMultisampleNV (texture exact-nonnegative-integer?) (target exact-integer?) (samples exact-integer?) (internalFormat exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (fixedSampleLocations boolean?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/texture_multisample.txt"]{@racket[GL_NV_texture_multisample]}.
 }
 @defproc[(glTextureLightEXT (pname exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/light_texture.txt"]{@racket[GL_EXT_light_texture]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/light_texture.txt"]{@racket[GL_EXT_light_texture]}.
 }
 @defproc[(glTextureMaterialEXT (face exact-integer?) (mode exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/light_texture.txt"]{@racket[GL_EXT_light_texture]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/light_texture.txt"]{@racket[GL_EXT_light_texture]}.
 }
 @defproc[(glTextureNormalEXT (mode exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/texture_perturb_normal.txt"]{@racket[GL_EXT_texture_perturb_normal]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/texture_perturb_normal.txt"]{@racket[GL_EXT_texture_perturb_normal]}.
 }
 @defproc[(glTextureParameterIivEXT (texture exact-nonnegative-integer?) (target exact-integer?) (pname exact-integer?) (params s32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureParameterIuivEXT (texture exact-nonnegative-integer?) (target exact-integer?) (pname exact-integer?) (params u32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureParameterfEXT (texture exact-nonnegative-integer?) (target exact-integer?) (pname exact-integer?) (param flonum?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureParameterfvEXT (texture exact-nonnegative-integer?) (target exact-integer?) (pname exact-integer?) (params f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureParameteriEXT (texture exact-nonnegative-integer?) (target exact-integer?) (pname exact-integer?) (param exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureParameterivEXT (texture exact-nonnegative-integer?) (target exact-integer?) (pname exact-integer?) (params s32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureRangeAPPLE (target exact-integer?) (length exact-integer?) (pointer gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/APPLE/texture_range.txt"]{@racket[GL_APPLE_texture_range]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/APPLE/texture_range.txt"]{@racket[GL_APPLE_texture_range]}.
 }
 @defproc[(glTextureRenderbufferEXT (texture exact-nonnegative-integer?) (target exact-integer?) (renderbuffer exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureStorage1DEXT (texture exact-nonnegative-integer?) (target exact-integer?) (levels exact-integer?) (internalformat exact-integer?) (width exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/texture_storage.txt"]{@racket[GL_ARB_texture_storage]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/texture_storage.txt"]{@racket[GL_ARB_texture_storage]}.
 }
 @defproc[(glTextureStorage2DEXT (texture exact-nonnegative-integer?) (target exact-integer?) (levels exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/texture_storage.txt"]{@racket[GL_ARB_texture_storage]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/texture_storage.txt"]{@racket[GL_ARB_texture_storage]}.
 }
 @defproc[(glTextureStorage2DMultisampleEXT (texture exact-nonnegative-integer?) (target exact-integer?) (samples exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?) (fixedsamplelocations boolean?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/texture_storage_multisample.txt"]{@racket[GL_ARB_texture_storage_multisample]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/texture_storage_multisample.txt"]{@racket[GL_ARB_texture_storage_multisample]}.
 }
 @defproc[(glTextureStorage3DEXT (texture exact-nonnegative-integer?) (target exact-integer?) (levels exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/texture_storage.txt"]{@racket[GL_ARB_texture_storage]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/texture_storage.txt"]{@racket[GL_ARB_texture_storage]}.
 }
 @defproc[(glTextureStorage3DMultisampleEXT (texture exact-nonnegative-integer?) (target exact-integer?) (samples exact-integer?) (internalformat exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (fixedsamplelocations boolean?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/texture_storage_multisample.txt"]{@racket[GL_ARB_texture_storage_multisample]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/ARB/texture_storage_multisample.txt"]{@racket[GL_ARB_texture_storage_multisample]}.
 }
 @defproc[(glTextureStorageSparseAMD (texture exact-nonnegative-integer?) (target exact-integer?) (internalFormat exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (layers exact-integer?) (flags exact-nonnegative-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/AMD/sparse_texture.txt"]{@racket[GL_AMD_sparse_texture]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/AMD/sparse_texture.txt"]{@racket[GL_AMD_sparse_texture]}.
 }
 @defproc[(glTextureSubImage1DEXT (texture exact-nonnegative-integer?) (target exact-integer?) (level exact-integer?) (xoffset exact-integer?) (width exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureSubImage2DEXT (texture exact-nonnegative-integer?) (target exact-integer?) (level exact-integer?) (xoffset exact-integer?) (yoffset exact-integer?) (width exact-integer?) (height exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureSubImage3DEXT (texture exact-nonnegative-integer?) (target exact-integer?) (level exact-integer?) (xoffset exact-integer?) (yoffset exact-integer?) (zoffset exact-integer?) (width exact-integer?) (height exact-integer?) (depth exact-integer?) (format exact-integer?) (type exact-integer?) (pixels gl-pointer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/direct_state_access.txt"]{@racket[GL_EXT_direct_state_access]}.
 }
 @defproc[(glTextureView (texture exact-nonnegative-integer?) (target exact-integer?) (origtexture exact-nonnegative-integer?) (internalformat exact-integer?) (minlevel exact-nonnegative-integer?) (numlevels exact-nonnegative-integer?) (minlayer exact-nonnegative-integer?) (numlayers exact-nonnegative-integer?)) any]{
 Version 4.3.
 }
 @defproc[(glTrackMatrixNV (target exact-integer?) (address exact-nonnegative-integer?) (matrix exact-integer?) (transform exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/vertex_program.txt"]{@racket[GL_NV_vertex_program]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/vertex_program.txt"]{@racket[GL_NV_vertex_program]}.
 }
 @defproc[(glTransformFeedbackAttribsNV (count exact-nonnegative-integer?) (attribs s32vector?) (bufferMode exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/transform_feedback.txt"]{@racket[GL_NV_transform_feedback]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/transform_feedback.txt"]{@racket[GL_NV_transform_feedback]}.
 }
 @defproc[(glTransformFeedbackStreamAttribsNV (count exact-integer?) (attribs s32vector?) (nbuffers exact-integer?) (bufstreams s32vector?) (bufferMode exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/transform_feedback.txt"]{@racket[GL_NV_transform_feedback]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/transform_feedback.txt"]{@racket[GL_NV_transform_feedback]}.
 }
 @defproc[(glTransformFeedbackVaryings (program exact-nonnegative-integer?) (count exact-integer?) (varyings (vectorof (or/c string? bytes?))) (bufferMode exact-integer?)) any]{
 Version 3.0.
@@ -640,17 +640,17 @@ Version 3.0.
 See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glTransformFeedbackVaryings.xhtml"]{glTransformFeedbackVaryings manpage}.
 }
 @defproc[(glTransformFeedbackVaryingsEXT (program exact-nonnegative-integer?) (count exact-integer?) (varyings (vectorof (or/c string? bytes?))) (bufferMode exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/transform_feedback.txt"]{@racket[GL_EXT_transform_feedback]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/EXT/transform_feedback.txt"]{@racket[GL_EXT_transform_feedback]}.
 
 Alias of @racket[glTransformFeedbackVaryings].
 }
 @defproc[(glTransformFeedbackVaryingsNV (program exact-nonnegative-integer?) (count exact-integer?) (locations s32vector?) (bufferMode exact-integer?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/transform_feedback.txt"]{@racket[GL_NV_transform_feedback]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/transform_feedback.txt"]{@racket[GL_NV_transform_feedback]}.
 
 Alias of @racket[glTransformFeedbackVaryings].
 }
 @defproc[(glTransformPathNV (resultPath exact-nonnegative-integer?) (srcPath exact-nonnegative-integer?) (transformType exact-integer?) (transformValues f32vector?)) any]{
-Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/path_rendering.txt"]{@racket[GL_NV_path_rendering]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/extensions/NV/path_rendering.txt"]{@racket[GL_NV_path_rendering]}.
 }
 @defproc[(glTranslated (x real?) (y real?) (z real?)) any]{
 Deprecated in version 3.1.
