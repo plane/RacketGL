@@ -3,51 +3,51 @@
 @defproc[(glWaitSync (sync GLsync?) (flags exact-nonnegative-integer?) (timeout exact-nonnegative-integer?)) any]{
 Version 1.2.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man4/xhtml/glWaitSync.xml"]{glWaitSync manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man4/html/glWaitSync.xhtml"]{glWaitSync manpage}.
 }
 @defproc[(glWeightPathsNV (resultPath exact-nonnegative-integer?) (numPaths exact-integer?) (paths u32vector?) (weights f32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/NV/path_rendering.txt"]{@racket[GL_NV_path_rendering]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/NV/path_rendering.txt"]{@racket[GL_NV_path_rendering]}.
 }
 @defproc[(glWeightPointerARB (size exact-integer?) (type exact-integer?) (stride exact-integer?) (pointer gl-pointer?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
 }
 @defproc[(glWeightbvARB (size exact-integer?) (weights s8vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
 }
 @defproc[(glWeightdvARB (size exact-integer?) (weights f64vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
 }
 @defproc[(glWeightfvARB (size exact-integer?) (weights f32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
 }
 @defproc[(glWeightivARB (size exact-integer?) (weights s32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
 }
 @defproc[(glWeightsvARB (size exact-integer?) (weights s16vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
 }
 @defproc[(glWeightubvARB (size exact-integer?) (weights (or/c string? bytes?))) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
 }
 @defproc[(glWeightuivARB (size exact-integer?) (weights u32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
 }
 @defproc[(glWeightusvARB (size exact-integer?) (weights u16vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/vertex_blend.txt"]{@racket[GL_ARB_vertex_blend]}.
 }
 @defproc[(glWindowPos2d (x real?) (y real?)) any]{
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos2dARB (x real?) (y real?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos2d].
 }
 @defproc[(glWindowPos2dMESA (x real?) (y real?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos2dARB].
 }
@@ -55,15 +55,15 @@ Alias of @racket[glWindowPos2dARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos2dvARB (v f64vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos2dv].
 }
 @defproc[(glWindowPos2dvMESA (v f64vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos2dvARB].
 }
@@ -71,15 +71,15 @@ Alias of @racket[glWindowPos2dvARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos2fARB (x flonum?) (y flonum?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos2f].
 }
 @defproc[(glWindowPos2fMESA (x flonum?) (y flonum?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos2fARB].
 }
@@ -87,15 +87,15 @@ Alias of @racket[glWindowPos2fARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos2fvARB (v f32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos2fv].
 }
 @defproc[(glWindowPos2fvMESA (v f32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos2fvARB].
 }
@@ -103,15 +103,15 @@ Alias of @racket[glWindowPos2fvARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos2iARB (x exact-integer?) (y exact-integer?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos2i].
 }
 @defproc[(glWindowPos2iMESA (x exact-integer?) (y exact-integer?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos2iARB].
 }
@@ -119,15 +119,15 @@ Alias of @racket[glWindowPos2iARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos2ivARB (v s32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos2iv].
 }
 @defproc[(glWindowPos2ivMESA (v s32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos2ivARB].
 }
@@ -135,15 +135,15 @@ Alias of @racket[glWindowPos2ivARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos2sARB (x (integer-in -32768 32767)) (y (integer-in -32768 32767))) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos2s].
 }
 @defproc[(glWindowPos2sMESA (x (integer-in -32768 32767)) (y (integer-in -32768 32767))) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos2sARB].
 }
@@ -151,15 +151,15 @@ Alias of @racket[glWindowPos2sARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos2svARB (v s16vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos2sv].
 }
 @defproc[(glWindowPos2svMESA (v s16vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos2svARB].
 }
@@ -167,15 +167,15 @@ Alias of @racket[glWindowPos2svARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos3dARB (x real?) (y real?) (z real?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos3d].
 }
 @defproc[(glWindowPos3dMESA (x real?) (y real?) (z real?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos3dARB].
 }
@@ -183,15 +183,15 @@ Alias of @racket[glWindowPos3dARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos3dvARB (v f64vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos3dv].
 }
 @defproc[(glWindowPos3dvMESA (v f64vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos3dvARB].
 }
@@ -199,15 +199,15 @@ Alias of @racket[glWindowPos3dvARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos3fARB (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos3f].
 }
 @defproc[(glWindowPos3fMESA (x flonum?) (y flonum?) (z flonum?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos3fARB].
 }
@@ -215,15 +215,15 @@ Alias of @racket[glWindowPos3fARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos3fvARB (v f32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos3fv].
 }
 @defproc[(glWindowPos3fvMESA (v f32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos3fvARB].
 }
@@ -231,15 +231,15 @@ Alias of @racket[glWindowPos3fvARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos3iARB (x exact-integer?) (y exact-integer?) (z exact-integer?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos3i].
 }
 @defproc[(glWindowPos3iMESA (x exact-integer?) (y exact-integer?) (z exact-integer?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos3iARB].
 }
@@ -247,15 +247,15 @@ Alias of @racket[glWindowPos3iARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos3ivARB (v s32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos3iv].
 }
 @defproc[(glWindowPos3ivMESA (v s32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos3ivARB].
 }
@@ -263,15 +263,15 @@ Alias of @racket[glWindowPos3ivARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos3sARB (x (integer-in -32768 32767)) (y (integer-in -32768 32767)) (z (integer-in -32768 32767))) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos3s].
 }
 @defproc[(glWindowPos3sMESA (x (integer-in -32768 32767)) (y (integer-in -32768 32767)) (z (integer-in -32768 32767))) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos3sARB].
 }
@@ -279,42 +279,42 @@ Alias of @racket[glWindowPos3sARB].
 Version 1.4.
 Deprecated in version 3.1.
 
-See the @hyperlink["http://www.opengl.org/sdk/docs/man2/xhtml/glWindowPos.xml"]{glWindowPos manpage}.
+See the @hyperlink["https://www.khronos.org/sdk/docs/man2/html/glWindowPos.xhtml"]{glWindowPos manpage}.
 }
 @defproc[(glWindowPos3svARB (v s16vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/ARB/window_pos.txt"]{@racket[GL_ARB_window_pos]}.
 
 Alias of @racket[glWindowPos3sv].
 }
 @defproc[(glWindowPos3svMESA (v s16vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 
 Alias of @racket[glWindowPos3svARB].
 }
 @defproc[(glWindowPos4dMESA (x real?) (y real?) (z real?) (w real?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 }
 @defproc[(glWindowPos4dvMESA (v f64vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 }
 @defproc[(glWindowPos4fMESA (x flonum?) (y flonum?) (z flonum?) (w flonum?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 }
 @defproc[(glWindowPos4fvMESA (v f32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 }
 @defproc[(glWindowPos4iMESA (x exact-integer?) (y exact-integer?) (z exact-integer?) (w exact-integer?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 }
 @defproc[(glWindowPos4ivMESA (v s32vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 }
 @defproc[(glWindowPos4sMESA (x (integer-in -32768 32767)) (y (integer-in -32768 32767)) (z (integer-in -32768 32767)) (w (integer-in -32768 32767))) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 }
 @defproc[(glWindowPos4svMESA (v s16vector?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/MESA/window_pos.txt"]{@racket[GL_MESA_window_pos]}.
 }
 @defproc[(glWriteMaskEXT (res exact-nonnegative-integer?) (in exact-nonnegative-integer?) (outX exact-integer?) (outY exact-integer?) (outZ exact-integer?) (outW exact-integer?)) any]{
-Extension @hyperlink["http://www.opengl.org/registry/specs/EXT/vertex_shader.txt"]{@racket[GL_EXT_vertex_shader]}.
+Extension @hyperlink["https://www.khronos.org/registry/OpenGL/specs/EXT/vertex_shader.txt"]{@racket[GL_EXT_vertex_shader]}.
 }
