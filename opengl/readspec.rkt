@@ -175,7 +175,7 @@
   (let* ((mo (regexp-match  #rx"^([0-9A-Z]+)_(.*)$" extension))
          (prefix (list-ref mo 1))
          (base (list-ref mo 2)))
-    (format "https://www.khronos.org/registry/OpenGL/specs/~a/~a.txt"
+    (format "https://www.khronos.org/registry/OpenGL/extensions/~a/~a.txt"
             prefix base)))
 
 (define (read-manpages input-port)
